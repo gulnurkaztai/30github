@@ -1,8 +1,11 @@
 package day37;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        List<Integer> list = new ArrayList();
+        List<Integer> list = new ArrayList<>();
         while (head != null) {
             list.add(head.val);
             head = head.next;
